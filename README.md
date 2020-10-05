@@ -1,5 +1,7 @@
 # Coding Interview Challenges
 
+![ci](https://github.com/nexioinformatica/coding-interview-challenges/workflows/ci/badge.svg)
+
 > nexioinformatica.com coding interview challenges, exercises and solutions.
 
 ## Install
