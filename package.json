@@ -8,11 +8,30 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "husky": "^4.3.0"
+    "@semantic-release/github": "^7.1.1",
+    "husky": "^4.3.0",
+    "semantic-release": "^17.1.2"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": ".build",
+              "label": "Challenges"
+            }
+          ]
+        }
+      ]
+    ]
   }
 }
