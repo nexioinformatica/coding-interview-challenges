@@ -46,6 +46,9 @@ function time-slot-booking {
 	pandoc $VOLUME $README_MD "time-slot-booking.pdf"
 }
 
-anagram
-angle-between-clock-hands
-time-slot-booking
+function help {
+	echo "Compile a readme to pdf. Allowd challnges are:"
+	echo "  anagram"
+	echo "  angle-between-clock-hands"
+	echo "  time-slot-booking"
+}
