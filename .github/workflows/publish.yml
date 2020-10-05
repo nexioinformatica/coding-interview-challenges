@@ -17,8 +17,7 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: chmod +x all.sh
-      - run: all.sh
+      - run: source all.sh
       - run: yarn semantic-release
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
