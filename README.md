@@ -17,20 +17,20 @@ cd coding-interview-challenges
 Compile all challenges to pdf
 
 ```
-$ ./all.sh
+$ make
 ```
 
-or compile only a single challenge
+This will create a `.build` folder with pdfs inside.
+
+Or compile only a single challenge
 
 ```
-$ source compile.sh
-$ help
-Compile a readme to pdf. Allowd challnges are:
-  anagram
-  angle-between-clock-hands
-  time-slot-booking
-$ anagram
+$ make anagram.pdf
+$ make angle-between-clock-hands.pdf
+$ make time-slot-booking.pdf
 ```
+
+Note: your system must support symlinks.
 
 ## Credits
 
