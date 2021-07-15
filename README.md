@@ -1,6 +1,7 @@
 # Coding Interview Challenges
 
-![ci](https://github.com/nexioinformatica/coding-interview-challenges/workflows/ci/badge.svg)
+[![test](https://github.com/nexioinformatica/coding-interview-challenges/actions/workflows/test.yml/badge.svg)](https://github.com/nexioinformatica/coding-interview-challenges/actions/workflows/test.yml)
+[![publish](https://github.com/nexioinformatica/coding-interview-challenges/actions/workflows/publish.yml/badge.svg)](https://github.com/nexioinformatica/coding-interview-challenges/actions/workflows/publish.yml)
 
 > nexioinformatica.com coding interview challenges, exercises and solutions.
 
