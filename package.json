@@ -6,11 +6,12 @@
   "author": "lparolari <luca.parolari23@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@semantic-release/github": "^7.1.1",
-    "husky": "^4.3.0",
-    "semantic-release": "^17.1.2"
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@semantic-release/github": "^7.2.3",
+    "husky": "^7.0.1",
+    "semantic-release": "^17.4.4",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "husky": {
     "hooks": {
