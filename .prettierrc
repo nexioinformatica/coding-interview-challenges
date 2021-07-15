@@ -1,0 +1,11 @@
+{
+    "overrides": [
+        {
+            "files": "*Makefile",
+            "options": {
+                "useTabs": true,
+                "tabWidth": 4
+            }
+        }
+    ]
+}
